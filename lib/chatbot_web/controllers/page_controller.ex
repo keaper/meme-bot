@@ -2,12 +2,12 @@ defmodule ChatbotWeb.PageController do
   use ChatbotWeb, :controller
 
   defp config() do
-    [{"help", &Chatbot.Bot.help/3},
-     {"create", &Chatbot.Bot.createMeme/3},
+    [{"ayuda", &Chatbot.Bot.help/3},
+     {"crear", &Chatbot.Bot.createMeme/3},
      {"alias", &Chatbot.Bot.createTemplate/3},
-     {"view", &Chatbot.Bot.viewTemplate/3},
+     {"veer", &Chatbot.Bot.viewTemplate/3},
      {"popular", &Chatbot.Bot.popularTemplates/3},
-     {"list", &Chatbot.Bot.list/3}]
+     {"lista", &Chatbot.Bot.list/3}]
   end
 
   def index(conn, _params) do
