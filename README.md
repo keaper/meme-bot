@@ -1,3 +1,4 @@
+![Diagrama Meme](memediagram.png)
 # Chatbot
 
 This is a sample chatbot for Google Hangouts Chat written in Elixir, using
