@@ -1,25 +1,21 @@
 ![Diagrama Meme](memediagram.png)
 # Chatbot
 
-This is a sample chatbot for Google Hangouts Chat written in Elixir, using
-the Phoenix framework. This application comes with a Dockerfile and is
-ready to be packaged as a container and is perfect for running in your
-serverless environment.
+Es un simple chatbot integrado conGoogle Hangouts Chat, escrito en Elixir, usando Phoenix framework. Esta aplicación está lista para empaquetar gracias a la inclusión del Dockerfile y preparada para ejecutar en un entorno serverless con Knative. 
 
-This application was written as a demo for Cloud Next '19.
+Esta aplicación se realizó para una demo en Cloud Next '19, y se convierte para su uso en el Google Summit de Madrid 2019.
 
 # Dependencies
 
-The chatbot is meant to receive messages from
+El chatbot recibie los mensajes de 
 [Google Hangouts Chat](https://developers.google.com/hangouts/chat/).
 
-There is a runtime dependcy on [Cloud Firestore](https://cloud.google.com/firestore/)
-in *Datastore Mode*.
+Hay una dependencia en [Cloud Firestore](https://cloud.google.com/firestore/)
+en *Datastore Mode*.
 
-The chatbot also depends on a meme service, and by default uses the one hosted
-at https://meme-fpz6derz7a-uc.a.run.app
+El chatbot utiliza un servicio de generación de memes que está publicado en https://meme-fpz6derz7a-uc.a.run.app
 
-# Build
+# Compilar
 
 1. Generate a new secret key base.
 
