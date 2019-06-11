@@ -13,7 +13,7 @@ El chatbot recibie los mensajes de
 Hay una dependencia en [Cloud Firestore](https://cloud.google.com/firestore/)
 en *Datastore Mode*.
 
-El chatbot utiliza un servicio de generación de memes que está publicado en https://meme-fpz6derz7a-uc.a.run.app
+El chatbot utiliza un servicio de generación de memes que está publicado en https://meme-roygwptruq-uc.a.run.app/
 
 # Compilar
 
@@ -48,7 +48,7 @@ You'll need to set a couple of environment variables.
 * MEME = a URL for a MEME generation service. You can use the one in the example below.
 
 ```shell
- gcloud beta run deploy chatbot --image gcr.io/<GOOGLE CLOUD PROJECT>/chatbot:v1 --memory=512M --set-env-vars=PROJECT=<PROJECT NAME>,MEME=https://meme-fpz6derz7a-uc.a.run.app
+ gcloud beta run deploy chatbot --image gcr.io/<GOOGLE CLOUD PROJECT>/chatbot:v1 --memory=512M --set-env-vars=PROJECT=<PROJECT NAME>,MEME=https://meme-roygwptruq-uc.a.run.app/
  ```
 
  1. Register the chatbot with __Hangouts Chat__ in your __GSuite__ domain.
