@@ -5,7 +5,7 @@ Es un simple chatbot integrado conGoogle Hangouts Chat, escrito en Elixir, usand
 
 Esta aplicación se realizó para una demo en Cloud Next '19, y se convierte para su uso en el Google Summit de Madrid 2019.
 
-# Dependencies
+# Dependencias
 
 El chatbot recibie los mensajes de 
 [Google Hangouts Chat](https://developers.google.com/hangouts/chat/).
@@ -14,6 +14,7 @@ Hay una dependencia en [Cloud Firestore](https://cloud.google.com/firestore/)
 en *Datastore Mode*.
 
 El chatbot utiliza un servicio de generación de memes que está publicado en https://meme-roygwptruq-uc.a.run.app/
+Si no se desea utilizar este, se puede compilar otro a través del proyecto [Memegen] (https://github.com/as-a-service/meme)
 
 # Compilar
 
